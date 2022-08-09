@@ -76,3 +76,11 @@ fun checkNumber(score :Int){
         else -> println("okay")
     }
 }
+
+/**
+ * Expression vs Statement
+ *
+ * Expression : 메소드 내에서 값을 만들면 -> 1 -> 1
+ * 코틀린의 모든 함수는 Expression [return 값이 없더라도]
+ * Statement : 실행하도록 만드는 것 -> println("this is 0")
+ */
