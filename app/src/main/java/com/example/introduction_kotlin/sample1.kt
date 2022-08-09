@@ -84,3 +84,25 @@ fun checkNumber(score :Int){
  * 코틀린의 모든 함수는 Expression [return 값이 없더라도]
  * Statement : 실행하도록 만드는 것 -> println("this is 0")
  */
+
+/**
+ * 5. Array and List
+ * Array는 정해져 있는 사이즈가 있음. [mutable : 수정 가능]
+ * List는 1. List[수정 불가능, unmutable], 2. MutableList[수정가능]
+ */
+fun array(){
+    val array = arrayOf(1, 2, 3) // 초기화
+    val list = listOf(1, 2, 3) // 초기화
+
+    val array2 = arrayOf(1, "d", 3, 4f)
+    val list2 = listOf(1, "d", 3, 4f)
+
+    array[0] = 3
+//    list[0] = 2 //error
+    list.get(0)
+
+    val arrayList = arrayListOf<Int>() // 참조값 자체가 변하는 것이 아닌 arraylist의 내부 값이 변하는 것으로 var, val 모두 사용 가능
+    arrayList.add(10)
+    arrayList.add(20)
+
+}
