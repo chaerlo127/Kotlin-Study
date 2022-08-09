@@ -11,6 +11,8 @@ fun main(){
     val lastName = "chang"
     println("my name is ${name + lastName} I'm 22")
     println("this is 2\$a") // $를 문자로 사용할 때 필요한 백슬래쉬
+
+    checkNumber(1)
 }
 
 /**
@@ -45,3 +47,32 @@ fun hi(){
     var name = "ari"
 }
 
+/**
+ * 4. 조건식
+ */
+fun maxBy(a:Int, b:Int) : Int{
+    if(a>b) return a
+    else return b
+}
+
+fun maxBy2(a:Int, b:Int) = if(a>b) a else b
+
+fun checkNumber(score :Int){
+    when(score) { // when ~ else
+        0 -> println("this is 0")
+        1 -> println("this is 1")
+        2, 3 -> println("this is 2 or 3")
+    }// = switch
+
+    var b = when(score){ // 리턴식으로 사용가능
+        1 -> 1
+        2 -> 2
+        else -> 3
+    }
+    println("b: ${b}")
+    when(score){ // when ~ in ~ else
+        in 90..100 -> println("You are genius")
+        in 10..80 -> println("not bad")
+        else -> println("okay")
+    }
+}
