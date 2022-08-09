@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/GetIT-server" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/JAVA/workspace/DataStructure" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/JAVA/workspace/algorithm_/baekjoon/src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/JAVA/workspace/pattern_finalterm2_60201976" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/UMC_SpringBoot_Template" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/UMC_SpringBoot_Template/UMC_SpringBoot_Template" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/UMC_SpringBoot_Template/UMC_SpringBoot_Template/api-server-spring-boot-final" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/history-server" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/kornada/kornada" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/spring study" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/udemy_server_practice_springboot" vcs="Git" />
+  </component>
+</project>
