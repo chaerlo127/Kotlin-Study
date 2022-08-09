@@ -3,6 +3,14 @@ package com.example.introduction_kotlin
 fun main(){
     helloWorld()
     println(add(4, 5))
+
+    /**
+     * 3. String Template
+     */
+    val name = "ari"
+    val lastName = "chang"
+    println("my name is ${name + lastName} I'm 22")
+    println("this is 2\$a") // $를 문자로 사용할 때 필요한 백슬래쉬
 }
 
 /**
