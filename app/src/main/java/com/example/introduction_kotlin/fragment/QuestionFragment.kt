@@ -15,7 +15,7 @@ import kotlinx.android.synthetic.main.fragment_question.*
  * Use the [QuestionFragment.newInstance] factory method to
  * create an instance of this fragment.
  */
-class QuestionFragment : Fragment() {
+class QuestionFragment : Fragment() , View.OnClickListener{
     lateinit var navController: NavController
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -29,10 +29,14 @@ class QuestionFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         navController = Navigation.findNavController(view)
-        btn_question.setOnClickListener{
-            navController.navigate(R.id.action_questionFragment_to_selectionFragment)
+        btn_question.setOnClickListener(this) // class 파일에서 구현한 onClick 을 도출
+    }
+
+    override fun onClick(v: View?) {
+        when(v?.id){
+            R.id.btn_question ->{
+                navController.navigate(R.id.action_questionFragment_to_selectionFragment)
+            }
         }
-
-
     }
 }
