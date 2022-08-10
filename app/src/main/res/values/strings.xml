@@ -1,3 +1,9 @@
 <resources>
+
     <string name="app_name">introduction-kotlin</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name= "main_title">Let\'s find out\nyour love type!</string>
+    <string name="question_title">There were favorite flowers \nIn the flower base.\n As time goes, the flowers \nhave all withered.\nWhat are you going to do with that?</string>
+    <string name="result_title">You are a \nQUITTER!</string>
+    <string name="result_sentence">May be you give up on \nlove too easily..</string>
 </resources>
