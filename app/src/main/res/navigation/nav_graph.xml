@@ -31,11 +31,6 @@
             app:popExitAnim="@anim/nav_default_pop_exit_anim" />
     </fragment>
     <fragment
-        android:id="@+id/resultFragment"
-        android:name="com.example.introduction_kotlin.fragment.ResultFragment"
-        android:label="fragment_result"
-        tools:layout="@layout/fragment_result" />
-    <fragment
         android:id="@+id/selectionFragment"
         android:name="com.example.introduction_kotlin.fragment.SelectionFragment"
         android:label="fragment_selection"
@@ -48,4 +43,18 @@
             app:popEnterAnim="@anim/nav_default_enter_anim"
             app:popExitAnim="@anim/nav_default_pop_exit_anim" />
     </fragment>
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="com.example.introduction_kotlin.fragment.ResultFragment"
+        android:label="fragment_result"
+        tools:layout="@layout/fragment_result" >
+        <action
+            android:id="@+id/action_resultFragment_to_mainFragment2"
+            app:destination="@id/mainFragment2"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_pop_exit_anim"
+            app:popEnterAnim="@anim/nav_default_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+
 </navigation>
